@@ -1,6 +1,6 @@
 /* XBAND FONT */
-@import url('http://fonts.cdnfonts.com/css/xband-rough');
-@import url('http://fonts.cdnfonts.com/css/futura-pt');
+@import url('//fonts.cdnfonts.com/css/xband-rough');
+@import url('//fonts.cdnfonts.com/css/futura-pt');
 html, body {
     font-size:12px;
     font-family: 'Futura PT', sans-serif;
