@@ -1,0 +1,234 @@
+/* XBAND FONT */
+@import url('http://fonts.cdnfonts.com/css/xband-rough');
+@import url('http://fonts.cdnfonts.com/css/futura-pt');
+html, body {
+    font-size:12px;
+    font-family: 'Futura PT', sans-serif;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+/* PETITION */
+.petition {
+    background-color:red;
+    min-height:2vh;
+    color:#000;
+    font-size:18px;
+    font-family: 'Futura PT', sans-serif;
+    text-align:center;
+}
+
+.petition a {
+    color:#fff;
+    font-weight:bold;
+}
+
+.petition a:hover {
+    color:#000;
+}
+
+/* INTRO */
+.intro {
+    background-color:#000;
+    min-height:100vh;
+}
+
+h1 {
+    font-family: 'XBAND Rough', sans-serif;
+    color:#fff;
+    text-align:center;
+    font-size:3.5em;
+}
+
+.intro-subtitle {
+    color:#fff;
+    text-align:center;
+    font-family: 'Futura PT', sans-serif;
+    font-size:2.5em;
+}
+
+/* NEVE SECTION */
+.neve {
+    background-color:#fff;
+    min-height:80vh;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+}
+
+.neve-text {
+    order: 1;
+    flex-grow: 1;
+    min-width: 30%;
+    margin-top: 25vh;
+    font-size: 2.7em;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 25vh;
+}
+  
+.neve-quote {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.neve-image {
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: flex-end;
+    max-width: 500px;
+}
+  
+.neve-photo {
+    max-width: 100%;
+    box-sizing: border-box;
+    float: right;
+}
+
+/* MESSAGE */
+.message {
+    background-color: #000;
+    /* min-height: 100vh; */
+    padding-bottom: 2vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+  
+.message-content {
+    color: #fff;
+    font-family: 'Futura PT', sans-serif;
+    margin-top: 5.5em;
+    margin-bottom: 2em;
+}
+  
+.message-title {
+    font-size: 4em;
+    font-family: 'XBAND Rough', sans-serif;
+}
+  
+.message-text {
+    margin-top: 0.5em;
+    font-size: 2.0em;
+}
+
+/* GALLERY */
+.gallery {
+    background-color:white;
+    text-align:center;
+    color:black;
+}
+
+.gallery-image {
+    width:200px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.author-text {
+    color: #000;
+    font-family: 'Futura PT', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+/* SOCIAL */
+/* CODE BY: Abdelrhman Said - https://www.codehim.com/social-media/social-media-buttons-html-code/ */
+.wrapper{
+    background: #fff;
+    text-align: center;
+}
+
+.wrapper .icon{
+  position: relative;
+  background-color: gainsboro;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  display: inline-block;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #333;
+  text-decoration: none;
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: black;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: black;
+}
+
+/* UPDATES */
+.updates {
+    background-color:red;
+    min-height:2vh;
+    color:#000;
+    font-size:18px;
+    font-family: 'Futura PT', sans-serif;
+    text-align:center;
+}
