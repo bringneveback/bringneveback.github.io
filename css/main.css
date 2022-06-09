@@ -39,7 +39,11 @@ html, body {
 
 /* INTRO */
 .intro {
-    background-color:#000;
+    /*background-color:#000;*/
+    background-image: url("../img/neves2back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height:100vh;
 }
 
