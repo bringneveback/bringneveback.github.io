@@ -130,7 +130,7 @@ h1 {
 
 /* GALLERY */
 .gallery {
-    background-color:white;
+    background-color:#F6F6F6;
     text-align:center;
     color:black;
 }
@@ -227,6 +227,33 @@ h1 {
   color: black;
 }
 
+/* SUPPORT */
+.support {
+    background-color:#FFF;
+    font-family:'Futura PT', sans-serif;
+    color:rgb(23, 23, 23);
+    margin-top: 2vw;
+    padding-top:10px;padding-bottom:10px;
+    min-height:30vh;
+}
+
+.quote {
+    font-size:3.5em;
+    color:black;
+}
+
+.seeMore {
+    font-size:2.5em;
+    color:black;
+    text-decoration:underline;
+    font-family: 'XBAND Rough', sans-serif;
+    padding-top:10px;
+}
+
+.seeMore:hover {
+    font-weight:bold;
+}
+
 /* UPDATES */
 .updates {
     background-color:red;
@@ -235,4 +262,9 @@ h1 {
     font-size:14px;
     font-family: 'Futura PT', sans-serif;
     text-align:center;
+}
+
+footer {
+    text-align:center;
+    background-color:#fff;
 }

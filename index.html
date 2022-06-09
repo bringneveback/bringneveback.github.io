@@ -27,7 +27,7 @@
     <meta name="twitter:description" content="Neve Campbell is Scream. She has been the face of the franchise since 1996. Realise what Neve, and Sidney, means to the franchise and what she means to fans!"/>
     <meta name="twitter:image" content="https://i.ibb.co/qgXV77r/Sidney-Social.jpg"/>
 
-    <!-- CSS -->
+    <!-- CSS AND JS -->
     <link rel="stylesheet" href="css/main.css">
 
     <!-- NON-LOCAL CSS -->
@@ -50,7 +50,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> <!-- END PETITION -->
 
     <!-- Welcome -->
     <div class="intro">
@@ -62,13 +62,13 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> <!-- END INTRO -->
 
     <!-- NEVE -->
     <div class="neve">
         <div class="neve-text"><div class="neve-quote">I'm Sidney <br> Prescott. <br> Of course I have a gun.</div></div>
         <div class="neve-image"><img class="neve-photo" src="img/Neve-Campbell.png" alt="Neve Campbell as Sidney Prescott"></div>
-    </div>
+    </div> <!-- END NEVE -->
 
     <!-- MESSAGE -->
     <div class="message">
@@ -87,16 +87,43 @@
                             <br><br>
                             Bring Neve Campbell back!
                         </h5>
-                        <br>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> <!-- END LETTER -->
+
+    <!-- SUPPORT / QUOTES -->
+    <div class="support">
+        <div class="container">
+            <!-- QUOTE DISPLAY -->
+            <center>
+                <h2 style="font-size:3.0em;">WHAT DO NEVE'S FANS HAVE TO SAY?</h2>
+                <hr width="50%" style="border:1px solid black;">
+                <div id="quoteDisplay" class="quote">
+                    <!-- JS INPUTS QUOTE HERE -->
+                </div>
+                <p onclick="newQuote()" class="seeMore">SEE MORE</p>
+                <hr width="50%" style="border:1px solid black;">
+            </center>
+
+            <!-- MESSSAGE OF SUPPORT FOR NEVE -->
+            <div class="row" style="padding-top:10px;">
+                <div class="col-sm-6">
+                    <p style="font-size:2.0em;">Sidney Prescott is more than just a character. Neve Campbell is more than just an actress. She means a lot to all Scream fans. The franchise will not be the same without her. These messages of support are from Neve's fans, to show how much she means to all of us.</p>
+                </div>
+
+                <div class="col-sm-6" style="text-align:center;">
+                    <img src="img/Neve-Support.png" width="350" alt="Neve Campbell, the star of Scream.">
+                </div>
+            </div>
+        </div>
+    </div> <!-- END QUOTES SECTION -->
 
     <!-- GALLERY -->
     <div class="gallery">
         <div class="container">
+            <br>
             <!-- ROW 1 -->
             <div class="row">
                 <div class="col-sm-4">
@@ -135,6 +162,14 @@
                     <img class="gallery-image" src="img/Neve-S1Promo5-BW.jpg" alt="Neve Campbell in Scream">
                 </div>
             </div>
+
+            <p style="font-size:1.5em;">Neve Campbell over the years!</p>
+        </div>
+    </div> <!-- END GALLERY -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
             <hr width="100%" style="border:1px solid black;">
             <p class="author-text">Site made by <strong>Scream</strong> fans, for <strong>Scream</strong> fans.</p>
             <a target="_blank" href="https://icons8.com/icon/A3yJz3nFJGDp/scream">Scream</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
@@ -151,12 +186,14 @@
                     <span><i class="fab fa-twitter"></i></span>
                 </a>
             <br><br>
-            </div>
+            </div> <!-- End Wrapper DIV -->
 
             <hr width="100%" style="border:1px solid black;">
             © Bring Neve Back 2022 - All rights reserved <br> Promotional and Editorial Photos property of Miramax/Dimensions Films and Paramount Pictures/Spyglass Media <br> Ghost Face® is a Registered trademark of Fun World Div./Easter Unlimited Inc. All Rights Reserved.<br><br>
         </div>
-    </div>
+    </footer>
+
+    <script src="js/quotes.js"></script>
     
     <!-- BOOTSTRAP JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
