@@ -268,3 +268,60 @@ footer {
     text-align:center;
     background-color:#fff;
 }
+
+/* TWEET SUPPORT FOR NEVE */
+.twitter-support {
+    background-color:#26a7de;
+    color:white;
+    text-align:center;
+    min-height:30vh;
+    margin-top: 2vw;
+    padding-top:10px;padding-bottom:10px;
+}
+
+.twitter-support h2 {
+    font-family: 'XBAND Rough', sans-serif;
+    font-size:2.5em;
+}
+
+.twitter-support p {
+    font-size:1.5em;
+    font-family: 'Futura PT', sans-serif;
+}
+
+.twitter-share {
+    color:white;
+}
+
+.twitter-share:hover {
+    color:gainsboro;
+}
+
+/* PETITION UPDATES */
+.petition-updates {
+    background-color:red;
+    color:black;
+    text-align:center;
+    min-height:30vh;
+    padding-top:10px;padding-bottom:10px;
+}
+
+.petition-updates a {
+    color:black;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.petition-updates a:hover {
+    color:white;
+}
+
+.petition-updates h2 {
+    font-family: 'XBAND Rough', sans-serif;
+    font-size:2.5em;
+}
+
+.petition-updates p {
+    font-size:1.5em;
+    font-family: 'Futura PT', sans-serif;
+}
